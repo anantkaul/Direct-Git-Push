@@ -10,7 +10,7 @@ echo
 
 read -p "(Username)  Your GitHub Username: " username
 read -p "(Repository)  Present Working Repository: " repo
-read -p "(GitHub Token)  Your Personal Access Token: " repo
+read -p "(GitHub Token)  Your Personal Access Token: " token
 
 echo 
 if [ -z "$repo" ]; then
